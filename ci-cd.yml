@@ -33,3 +33,4 @@ jobs:
         run: |
           docker tag ghcr.io/${{ github.repository }}/spotify-mvp:latest ghcr.io/${{ github.repository }}/spotify-mvp:${{ github.sha }}
           docker push ghcr.io/${{ github.repository }}/spotify-mvp:${{ github.sha }}
+
